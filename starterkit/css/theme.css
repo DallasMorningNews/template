@@ -451,6 +451,109 @@ article {
   }
 }
 
+/* --------- SLIDESHOW BLOCK -------- */
+
+.slideshowBlock {
+  background-color: rgb(33,33,33);
+  margin: 5rem auto;
+  padding: 5rem 0;
+}
+
+.slideshowBlock .subhead {
+  color: white;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 2.4rem; 
+  font-weight: bold;
+  line-height: 3.2rem;
+  margin-bottom: 1rem;
+}
+
+.slideshowBlock img {
+  display: block;
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.slideshowGroup {
+  margin: 0 auto 0;
+  max-width: 1200px;
+}
+
+.slideshowBlock p.cutline {
+  color: white;
+  margin-top: .5rem;
+  width: 80%;
+  float: left;
+}
+
+.controls {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.controls p, .controls p span {
+  color: white;
+}
+
+.slideshowBlock .next, .slideshowBlock .previous {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin: 1rem 1.5rem 0 0;
+  opacity: .3;
+}
+
+.slideshowBlock .next:hover, .slideshowBlock .previous:hover {
+  opacity: .6;
+}
+
+.slideshowBlock .next:active, .slideshowBlock .previous:active {
+  opacity: .9;
+}
+
+.slideshowTracker {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: bold;
+  float: right;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  margin-top: 1.5rem;
+}
+
+
+@media (max-width: 1200px) {
+  .slideshowBlock {
+    padding: 5rem 5rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .slideshowBlock p.cutline {
+    width: 75%;
+  }
+}
+
+
+@media (max-width: 700px) {
+
+  .slideshowBlock {
+    padding: 2rem;
+  }
+
+  .slideshowBlock p.cutline {
+    float: none;
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+
+  .slideshowBlock p.subhead {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+}
+
 
 /* --------- RIGHT BLOCK & LEFT BLOCK -------- */
 
@@ -811,6 +914,7 @@ article {
 }
 
 .more a {
+  color: rgb(33,33,33);
   display: block;
   font-family: 'Open Sans', Arial, sans-serif;
   float: left;
@@ -886,8 +990,17 @@ article {
   max-width: 650px;
 }
 
-#share-bar {
+#share-bar1, #share-bar2 {
   margin-bottom: 40px;
+}
+
+.gig-counter {
+  margin-top: 6px !important;
+}
+
+.gig-bar-container img {
+  margin-right: 5px;
+  width: 110px;
 }
 
 

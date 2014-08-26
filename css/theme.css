@@ -974,8 +974,18 @@ p.cutline {
   width: 100%;
   clear: both; }
 
-#share-bar {
+#share-bar1, #share-bar2 {
   margin-bottom: 1.5em; }
+
+.gig-counter {
+  margin-top: 6px !important;
+}
+
+.gig-bar-container img {
+  margin-right: 5px;
+  width: 110px;
+}
+
 
 
 /* ***** AD CODE ***** */

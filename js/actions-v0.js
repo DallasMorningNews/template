@@ -34,7 +34,9 @@ function init(){
 		commentInit(storyURL, storyTitle);
 	}
 	if (storyURL && leadText && share){
-		shareInit(storyURL, storyTitle, leadText, storyIMG);
+
+		shareInit(storyURL, storyTitle, leadText, storyIMG, 'share-bar1');
+		shareInit(storyURL, storyTitle, leadText, storyIMG, 'share-bar2');
 	}
 	// trackingInit(storyURL);
 
