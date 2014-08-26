@@ -1,4 +1,4 @@
-interactives template
+awesome interactives template
 ========
 
 The home of the updated interactive page template.
