@@ -1,6 +1,3 @@
-function initJQuery(){
-	getScript("/interactives/template/common/js/jquery-1.10.2.min.js", function(){
-
 		jQuery(document).ready(function ($) {
 
 			// --------------Custom Javascript Goes Here------
@@ -25,8 +22,6 @@ function initJQuery(){
 
 			// --------------Custom Javascript Ends Here------
 		});
-	});
-}
 
 
 function init(){
