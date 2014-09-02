@@ -21,11 +21,11 @@ function shareInit(storyURL, storyTitle, leadText, storyIMG, shareID){
 	}
 	gigya.socialize.showShareBarUI({
 		containerID : gigya_shareID,
-		shareButtons : [{provider: 'Facebook', enableCount: 'false', iconOnly:'true', iconImgUp:'/interactives/template/common/img/facebook.jpg'},
-		{provider: 'Twitter', enableCount: 'false', iconOnly:'true', iconImgUp:'/interactives/template/common/img/twitter.jpg'},
-		{provider: 'Share', enableCount: 'false', iconOnly:'true', iconImgUp:'/interactives/template/common/img/share.jpg'},
-		{provider: 'Email', iconOnly:'true', iconImgUp:'/interactives/template/common/img/email.jpg'},
-		{provider: 'Print', iconOnly:'true', iconImgUp:'/interactives/template/common/img/print.jpg'}],
+		shareButtons : [{provider: 'Facebook', enableCount: 'false', iconOnly:'true', iconImgUp:'../img/facebook.jpg'},
+		{provider: 'Twitter', enableCount: 'false', iconOnly:'true', iconImgUp:'../img/twitter.jpg'},
+		{provider: 'Share', enableCount: 'false', iconOnly:'true', iconImgUp:'../img/share.jpg'},
+		{provider: 'Email', iconOnly:'true', iconImgUp:'../img/email.jpg'},
+		{provider: 'Print', iconOnly:'true', iconImgUp:'../img/print.jpg'}],
 		userAction: act,
 		operationMode: 'multiSelect',
 		grayedOutScreenOpacity: 20,
