@@ -1006,7 +1006,12 @@ article {
 
 @media (max-width: 860px) {
   .shareComments {
+    margin: 2.4rem auto 0;
     padding: 0 0;
+  }
+
+  .gig-bar-container img {
+    width: 80px;
   }
 }
 
