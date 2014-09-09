@@ -1,0 +1,265 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 2846912, 2014-07-16T11:08:05-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Proxima Nova A Bold by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/a-bold/
+ * 
+ * Webfont: Proxima Nova S Regular by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/s-regular/
+ * 
+ * Webfont: Proxima Nova S Bold by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/s-bold/
+ * 
+ * Webfont: Proxima Nova A Light by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/a-light/
+ * 
+ * Webfont: Proxima Nova A Regular by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/a-regular/
+ * 
+ * Webfont: Proxima Nova S Light by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/s-light/
+ * 
+ * Webfont: Proxima Nova Light by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/light/
+ * 
+ * Webfont: Proxima Nova Regular by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/regular/
+ * 
+ * Webfont: Proxima Nova Bold by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/bold/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2846912
+ * Licensed pageviews: 50,000,000
+ * Webfonts copyright: Copyright (c) Mark Simonson, 2005. All rights reserved.
+ * 
+ * © 2014 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+/*@import url("//hello.myfonts.net/count/2b70c0");*/
+
+  
+/*@font-face {font-family: 'Proxima Nova A Bold';src: url('http://res.dallasnews.com/premium/fonts/proxima-nova/2B70C0_0_0.eot');src: url('http://res.dallasnews.com/premium/fonts/proxima-nova/2B70C0_0_0.eot?#iefix') format('embedded-opentype'),url('http://res.dallasnews.com/premium/fonts/proxima-nova/2B70C0_0_0.woff') format('woff'),url('http://res.dallasnews.com/premium/fonts/proxima-nova/2B70C0_0_0.ttf') format('truetype');}*/
+/*@font-face {font-family: 'Proxima Nova S Regular';src: url('http://res.dallasnews.com/premium/fonts/proxima-nova/2B70C0_1_0.eot');src: url('http://res.dallasnews.com/premium/fonts/proxima-nova/2B70C0_1_0.eot?#iefix') format('embedded-opentype'),url('http://res.dallasnews.com/premium/fonts/proxima-nova/2B70C0_1_0.woff') format('woff'),url('http://res.dallasnews.com/premium/fonts/proxima-nova/2B70C0_1_0.ttf') format('truetype');}
+@font-face {font-family: 'Proxima Nova S Bold';src: url('http://res.dallasnews.com/premium/fonts/proxima-nova/2B70C0_2_0.eot');src: url('http://res.dallasnews.com/premium/fonts/proxima-nova/2B70C0_2_0.eot?#iefix') format('embedded-opentype'),url('http://res.dallasnews.com/premium/fonts/proxima-nova/2B70C0_2_0.woff') format('woff'),url('http://res.dallasnews.com/premium/fonts/proxima-nova/2B70C0_2_0.ttf') format('truetype');}*/
+/*@font-face {font-family: 'Proxima Nova A Light';src: url('http://res.dallasnews.com/premium/fonts/proxima-nova/2B70C0_3_0.eot');src: url('http://res.dallasnews.com/premium/fonts/proxima-nova/2B70C0_3_0.eot?#iefix') format('embedded-opentype'),url('http://res.dallasnews.com/premium/fonts/proxima-nova/2B70C0_3_0.woff') format('woff'),url('http://res.dallasnews.com/premium/fonts/proxima-nova/2B70C0_3_0.ttf') format('truetype');}*/
+/*@font-face {font-family: 'Proxima Nova A Regular';src: url('http://res.dallasnews.com/premium/fonts/proxima-nova/2B70C0_4_0.eot');src: url('http://res.dallasnews.com/premium/fonts/proxima-nova/2B70C0_4_0.eot?#iefix') format('embedded-opentype'),url('http://res.dallasnews.com/premium/fonts/proxima-nova/2B70C0_4_0.woff') format('woff'),url('http://res.dallasnews.com/premium/fonts/proxima-nova/2B70C0_4_0.ttf') format('truetype');}*/
+/*@font-face {font-family: 'Proxima Nova S Light';src: url('http://res.dallasnews.com/premium/fonts/proxima-nova/2B70C0_5_0.eot');src: url('http://res.dallasnews.com/premium/fonts/proxima-nova/2B70C0_5_0.eot?#iefix') format('embedded-opentype'),url('http://res.dallasnews.com/premium/fonts/proxima-nova/2B70C0_5_0.woff') format('woff'),url('http://res.dallasnews.com/premium/fonts/proxima-nova/2B70C0_5_0.ttf') format('truetype');}*/
+/*@font-face {font-family: 'Proxima Nova Black';src: url('http://res.dallasnews.com/premium/fonts/proxima-nova/proxima-nova-black.eot');src: url('http://res.dallasnews.com/premium/fonts/proxima-nova/proxima-nova-black.eot?#iefix') format('embedded-opentype'),url('http://res.dallasnews.com/premium/fonts/proxima-nova/proxima-nova-black.woff') format('woff'),url('http://res.dallasnews.com/premium/fonts/proxima-nova/proxima-nova-black.ttf') format('truetype');}*/
+@font-face {font-family: 'Proxima Nova Semi Bold';src: url('http://res.dallasnews.com/premium/fonts/proxima-nova/proxima-nova-semibold.eot');src: url('http://res.dallasnews.com/premium/fonts/proxima-nova/proxima-nova-semibold.eot?#iefix') format('embedded-opentype'),url('http://res.dallasnews.com/premium/fonts/proxima-nova/proxima-nova-semibold.woff') format('woff'),url('http://res.dallasnews.com/premium/fonts/proxima-nova/proxima-nova-semibold.ttf') format('truetype');}
+@font-face {font-family: 'Proxima Nova Light';src: url('http://res.dallasnews.com/premium/fonts/proxima-nova/2B70C0_6_0.eot');src: url('http://res.dallasnews.com/premium/fonts/proxima-nova/2B70C0_6_0.eot?#iefix') format('embedded-opentype'),url('http://res.dallasnews.com/premium/fonts/proxima-nova/2B70C0_6_0.woff') format('woff'),url('http://res.dallasnews.com/premium/fonts/proxima-nova/2B70C0_6_0.ttf') format('truetype');}
+@font-face {font-family: 'Proxima Nova Regular';src: url('http://res.dallasnews.com/premium/fonts/proxima-nova/2B70C0_7_0.eot');src: url('http://res.dallasnews.com/premium/fonts/proxima-nova/2B70C0_7_0.eot?#iefix') format('embedded-opentype'),url('http://res.dallasnews.com/premium/fonts/proxima-nova/2B70C0_7_0.woff') format('woff'),url('http://res.dallasnews.com/premium/fonts/proxima-nova/2B70C0_7_0.ttf') format('truetype');}
+@font-face {font-family: 'Proxima Nova Bold';src: url('http://res.dallasnews.com/premium/fonts/proxima-nova/2B70C0_8_0.eot');src: url('http://res.dallasnews.com/premium/fonts/proxima-nova/2B70C0_8_0.eot?#iefix') format('embedded-opentype'),url('http://res.dallasnews.com/premium/fonts/proxima-nova/2B70C0_8_0.woff') format('woff'),url('http://res.dallasnews.com/premium/fonts/proxima-nova/2B70C0_8_0.ttf') format('truetype');}
+@font-face {font-family: 'Tisa Bold';src: url('http://res.dallasnews.com/premium/fonts/tisa/tisa-bold.eot');src: url('http://res.dallasnews.com/premium/fonts/tisa/tisa-bold.eot?#iefix') format('embedded-opentype'),url('http://res.dallasnews.com/premium/fonts/tisa/tisa-bold.woff') format('woff'),url('http://res.dallasnews.com/premium/fonts/tisa/tisa-bold.ttf') format('truetype');}
+
+/* icomoon */
+@font-face {
+  font-family: 'icomoon';
+  src:url('http://res.dallasnews.com/premium/fonts/icons/icomoon.eot?758zh');
+  src:url('http://res.dallasnews.com/premium/fonts/icons/icomoon.eot?#iefix758zh') format('embedded-opentype'),
+    url('http://res.dallasnews.com/premium/fonts/icons/icomoon.woff?758zh') format('woff'),
+    url('http://res.dallasnews.com/premium/fonts/icons/icomoon.ttf?758zh') format('truetype'),
+    url('http://res.dallasnews.com/premium/fonts/icons/icomoon.svg?758zh#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fico {
+  font-family: icomoon, Arial, sans-serif;
+}
+
+.icon-clock:before {
+  content: "\f017";
+}
+.icon-calendar:before {
+  content: "\f073";
+}
+.icon-sunrise:before {
+  content: "\e600";
+}
+.icon-sun:before {
+  content: "\e601";
+}
+.icon-moon:before {
+  content: "\e602";
+}
+.icon-drop:before {
+  content: "\e609";
+}
+.icon-hazefog:before {
+  content: "\e603";
+}
+.icon-wind:before {
+  content: "\e604";
+}
+.icon-cloudday:before {
+  content: "\e605";
+}
+.icon-cloudnight:before {
+  content: "\e606";
+}
+.icon-cloud:before {
+  content: "\e60b";
+}
+.icon-thunder:before {
+  content: "\e60c";
+}
+.icon-chancerain:before {
+  content: "\e60e";
+}
+.icon-rain:before {
+  content: "\e60f";
+}
+.icon-snow:before {
+  content: "\e612";
+}
+.icon-chancesnow:before {
+  content: "\e613";
+}
+.icon-heavysnow:before {
+  content: "\e614";
+}
+.icon-hail:before {
+  content: "\e615";
+}
+.icon-cloudy:before {
+  content: "\e616";
+}
+.icon-heavythunder:before {
+  content: "\e617";
+}
+.icon-newspaper:before {
+  content: "\e623";
+}
+.icon-user:before {
+  content: "\e610";
+}
+.icon-warning:before {
+  content: "\e618";
+}
+.icon-envelope:before {
+  content: "\e622";
+}
+.icon-location:before {
+  content: "\e60a";
+}
+.icon-share:before {
+  content: "\e611";
+}
+.icon-search:before {
+  content: "\e619";
+}
+.icon-checkmark:before {
+  content: "\e61b";
+}
+.icon-cross:before {
+  content: "\e60d";
+}
+.icon-cycle:before {
+  content: "\e61c";
+}
+.icon-list:before {
+  content: "\e61a";
+}
+.icon-arrow-left:before {
+  content: "\e608";
+}
+.icon-arrow-down:before {
+  content: "\e61d";
+}
+.icon-arrow-up:before {
+  content: "\e61e";
+}
+.icon-arrow-right:before {
+  content: "\e607";
+}
+.icon-twitter:before {
+  content: "\e61f";
+}
+.icon-facebook:before {
+  content: "\e620";
+}
+.icon-googleplus:before {
+  content: "\e621";
+}
+
+
+/* 
+-------------------------------------------------------
+FOOTER
+-------------------------------------------------------
+*/
+
+.interactiveFooter {
+  background-color: #b0bcc4;
+  padding: 2rem 1rem;
+}
+
+.back-to-top {
+  background-color: rgb(255,255,255);
+  color: #b0bcc4;
+  margin-right: .6rem;
+}
+
+.interactiveFooter a, .interactiveFooter p {
+  color: white;
+}
+
+.interactiveFooter a {
+  font-family: 'Proxima Nova Regular', 'Open Sans', Arial, sans-serif;  
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  margin-left: 2rem;
+}
+
+a.top {
+  display: block;
+  float: left;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  margin: 0 0 1.2rem 0rem;
+}
+.terms-privacy {
+  float: right;
+  padding-top: .4rem;
+}
+
+.interactiveFooter p {
+  clear: both;
+  font-family: 'Proxima Nova Bold', 'Open Sans', Arial, sans-serif;    
+  font-size: 1.4rem;
+  letter-spacing: -.5px;
+  line-height: 1.8rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 500px) {
+  a.top {
+    float: none;
+    margin: 0 0 .6rem 0;
+  }
+
+  .terms-privacy {
+    float: none;
+    margin: 0 0 2.4rem;
+    padding: 0 0;
+  }
+  .terms-privacy a {
+    float: left;
+    margin: 0 0;
+    width: 50%;
+  }
+
+}
+
+
+
