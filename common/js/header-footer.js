@@ -1,1 +1,0 @@
-$('.interactiveFooter').load('/interactives/template/common/html/footer.html');
