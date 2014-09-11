@@ -67,7 +67,7 @@ _sf_async_config.uid = 38837;
 _sf_async_config.domain = "dallasnewsPREMIUM";
 _sf_async_config.sections = "interactive";
 _sf_async_config.authors = storyAuthor;
-console.log(4);
+//console.log(4);
 (function(){
 	//function loadChartbeat() {
     //    console.log(6);

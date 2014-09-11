@@ -134,3 +134,28 @@ function getScript(url,success) {
 }
 
 
+
+
+$.getScript('http://www.googletagservices.com/tag/js/gpt.js', function () {
+	DFP_networkId = "11222444";
+	var DFPSlotSizes = [];
+	if (jQuery(window).width() < 768)
+	{
+	var DFP_sitepage = "m.DMN/interactives";
+	DFPSlotSizes = [320,50]
+	var adSlot0 = googletag.defineSlot('/' + DFP_networkId + '/' + DFP_sitepage, DFPSlotSizes, "dfpAdPositionTop");
+	adSlot0.setTargeting("position", "x01");
+	adSlot0.addService(googletag.pubads());
+	}
+	else
+	{
+	var DFP_sitepage = "DMN/interactives";
+	DFPSlotSizes = [728,90]
+	var adSlot0 = googletag.defineSlot('/' + DFP_networkId + '/' + DFP_sitepage, DFPSlotSizes, "dfpAdPositionTop");
+	adSlot0.setTargeting("position", "Top");
+	adSlot0.addService(googletag.pubads());
+	}
+	googletag.pubads().enableSingleRequest();
+	googletag.pubads().enableAsyncRendering();
+ 	googletag.enableServices();
+});
