@@ -4,7 +4,7 @@ document.write("<span class=\"sr-only\">The Dallas Morning News<\/span>");
 document.write("<\/a>");
 document.write("<button id=\"navDrop\">");
 document.write("<div class=\"fico icon-list sections-icon\"><\/div>");
-document.write("<p class=\"menuText\">Menu<\/p>");
+document.write("<span class=\"menuText\">Menu<\/span>");
 document.write("<\/button>");
 document.write("<\/header>");
 document.write("<nav id=\"mainNav\">");
@@ -42,7 +42,7 @@ function navDisplay() {
 		dmnMainNav.classList.remove('navActive');
 	} else {
 		dmnMainNav.classList.add('navActive');	
-	}	
+	} return false;	
 }
 
 dmnMenuButton.addEventListener('click', navDisplay, false);

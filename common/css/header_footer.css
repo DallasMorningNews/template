@@ -207,12 +207,14 @@ HEADER
 
 .bg-black {
   min-height: 51px;
-  padding: .6rem 1.2rem;
+  padding: 6px 12px;
   background-color: rgb(33,33,33);
   color: #ffffff;
   position: relative;
   z-index: 30;
-  width: 100%;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
 }
 
 .logo {
@@ -226,10 +228,29 @@ HEADER
   float: left;
 }
 
+.bg-black *, #mainNav * {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+
+
 @media (max-width: 432px) {
   .logo {
     width: 198px;
   }
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
 }
 
 #navDrop {
@@ -259,10 +280,16 @@ HEADER
 
 .menuText {
   font-size: 18px;
+  line-height: 28px;
   vertical-align: bottom;
   display: inline-block;
-  padding-top: 4px;
   height: 20px;
+  padding: 0 0;
+  margin: 0 0;
+  border: none;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+
 }
 
 #mainNav {
@@ -272,6 +299,9 @@ HEADER
   max-height: 0;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;  
 }
 
 .navActive {
@@ -298,13 +328,15 @@ HEADER
   display: inline;
   padding: 0 12px;
   line-height: 24px;
+  text-align: left;
 }
 
 .sectionLink {
-  color: #fff;
+  color: #ffffff !important;
   font-family: 'Proxima Nova Regular', 'Open Sans', Arial, sans-serif;
   font-size: 16px;
   padding: 6px 0;
+  text-decoration: none;
 }
 .sectionLink:hover {
   color: #fff;
