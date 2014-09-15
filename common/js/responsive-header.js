@@ -2,7 +2,7 @@ document.write("<header class=\"bg-black\">");
 document.write("<a class=\"logo\" href=\"http:\/\/www.dallasnews.com\" id=\"top\">");
 document.write("<span class=\"sr-only\">The Dallas Morning News<\/span>");
 document.write("<\/a>");
-document.write("<button id=\"navDrop\">");
+document.write("<button id=\"navDrop\" onClick=\"return false;\">");
 document.write("<div class=\"fico icon-list sections-icon\"><\/div>");
 document.write("<span class=\"menuText\">Menu<\/span>");
 document.write("<\/button>");
