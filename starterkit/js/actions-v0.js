@@ -17,6 +17,7 @@ function initJQuery(){
 			displayInit();
 
 
+
 			/* **** START OTHER CUSTOME JAVASCRIPT HERE **** */
 
 
