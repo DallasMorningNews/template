@@ -54,7 +54,7 @@ function commentInit(storyURL, storyTitle){
 // Chartbeat Init cannot be in a function
 var _sf_async_config={};
 _sf_async_config.uid = 38837;
-_sf_async_config.domain = "dallasnewsPREMIUM";
+_sf_async_config.domain = "dallasnews.com";
 _sf_async_config.sections = "interactive";
 _sf_async_config.authors = storyAuthor;
 
