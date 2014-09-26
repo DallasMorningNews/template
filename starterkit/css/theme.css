@@ -129,7 +129,7 @@ article {
   clear: both;
 }
 
-.bodyCopy p, .bodyCopy hgroup {
+.bodyCopy p, #storyHead {
   font-size: 1.6rem;
   line-height: 2.4rem;
   margin: 0 auto;
@@ -157,13 +157,13 @@ article {
   float:left;
 }
 
-.bodyCopy hgroup {
+#storyHead {
   font-family: 'Open Sans', Arial, sans-serif;
   text-align: center;
   max-width: none;
 }
 
-.bodyCopy hgroup h3 {
+#storyHead h3 {
   display: inline-block;
   font-size: 2.4rem;
   line-height: 3rem;
@@ -172,14 +172,14 @@ article {
   margin-bottom: 15px;
 }
 
-.bodyCopy hgroup h1 {
+#storyHead h1 {
   font-size: 6.4rem;
   line-height: 7.6rem;
   font-weight: bold;
   margin-bottom: 15px;
 }
 
-.bodyCopy hgroup h2 {
+#storyHead h2 {
   font-size: 3.2rem;
   line-height: 4.2rem;
 }
@@ -212,33 +212,30 @@ article {
 
 
 @media (max-width: 860px) {
-  .bodyCopy p, .bodyCopy hgroup {
+  .bodyCopy p, #storyHead {
     padding: 0 0;
   }
   .bodyCopy p.pullQuote {
     font-size: 1.5em;
   }  
-  .bodyCopy hgroup h3 {
+  #storyHead h3 {
     font-size: 1.4rem;
     line-height: 1.8rem;
   }
-  .bodyCopy hgroup h1 {
+  #storyHead h1 {
     font-size: 4rem;
     line-height: 5rem;
     margin-bottom: 15px;
   }
-
-  .bodyCopy hgroup h2 {
+  #storyHead h2 {
     font-size: 2.4rem;
     line-height: 3.2rem;
     margin-bottom: 30px;
   }
-
   .bodyCopy .intro {
     font-size: 2.2rem;
     line-height: 3.8rem;
   }
-
   .dropcap {
     font-size: 9rem;
     margin: 5px 5px 10px 0;
@@ -249,16 +246,15 @@ article {
 
 @media (max-width: 500px) {
 
-  .bodyCopy hgroup h3 {
+  #storyHead h3 {
     font-size: 1.4rem;
   }
-  .bodyCopy hgroup h1 {
+  #storyHead h1 {
     font-size: 3rem;
     line-height: 3.8rem;
     margin-bottom: 15px;
   }
-
-  .bodyCopy hgroup h2 {
+  #storyHead h2 {
     font-size: 2rem;
     line-height: 2.6rem;
     margin-bottom: 30px;
