@@ -289,7 +289,6 @@ HEADER
   border: none;
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
-
 }
 
 #mainNav {
@@ -338,9 +337,15 @@ HEADER
   padding: 6px 0;
   text-decoration: none;
 }
+.marketplace {
+  opacity: .7;
+}
 .sectionLink:hover {
   color: #fff;
   text-decoration: underline;
+}
+.marketplace:hover {
+  opacity: 1;
 }
 
 .navList .icon-newspaper:before, .navList .icon-user:before {
