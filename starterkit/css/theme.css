@@ -860,11 +860,16 @@ article {
 
 .shareComments {
   margin: 4.8rem auto 0;
-  max-width: 650px;
+  max-width: 65rem;
+}
+
+.shareComments:first-of-type {
+  max-width: 51rem;
+  width: 100%;
 }
 
 #share-bar1, #share-bar2 {
-  margin-bottom: 40px;
+  margin-bottom: 4rem;
 }
 
 .gig-counter {
@@ -872,8 +877,8 @@ article {
 }
 
 .gig-bar-container img {
-  margin-right: 5px;
-  width: 110px;
+  margin-right: .5rem;
+  width: 9rem;
 }
 
 
@@ -882,11 +887,17 @@ article {
     margin: 2.4rem auto 0;
     padding: 0 0;
   }
+  .shareComments:first-of-type {
+    max-width: 46rem;
+    width: 100%;
+  }
 
   .gig-bar-container img {
     width: 80px;
   }
 }
+
+
 
 
 /* ---------- AD STYLING ---------- */
