@@ -925,7 +925,7 @@ border-bottom: none !important;
 }
 
 #dfpAdPositionTop * {
-  margin: 0 auto;
+  margin: 0 auto !important;
 }
 
 
