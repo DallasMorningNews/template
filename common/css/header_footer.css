@@ -64,11 +64,11 @@
 /* icomoon */
 @font-face {
   font-family: 'icomoon';
-  src:url('http://res.dallasnews.com/premium/fonts/icons/icomoon.eot?758zh');
-  src:url('http://res.dallasnews.com/premium/fonts/icons/icomoon.eot?#iefix758zh') format('embedded-opentype'),
-    url('http://res.dallasnews.com/premium/fonts/icons/icomoon.woff?758zh') format('woff'),
-    url('http://res.dallasnews.com/premium/fonts/icons/icomoon.ttf?758zh') format('truetype'),
-    url('http://res.dallasnews.com/premium/fonts/icons/icomoon.svg?758zh#icomoon') format('svg');
+  src:url('http://res.dallasnews.com/premium/fonts/icons/icomoon.v2.eot?758zh');
+  src:url('http://res.dallasnews.com/premium/fonts/icons/icomoon.v2.eot?#iefix758zh') format('embedded-opentype'),
+    url('http://res.dallasnews.com/premium/fonts/icons/icomoon.v2.woff?758zh') format('woff'),
+    url('http://res.dallasnews.com/premium/fonts/icons/icomoon.v2.ttf?758zh') format('truetype'),
+    url('http://res.dallasnews.com/premium/fonts/icons/icomoon.v2.svg?758zh#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -196,7 +196,9 @@
 .icon-googleplus:before {
   content: "\e621";
 }
-
+.icon-pencil:before {
+    content: "\e631";
+}
 
 
 /* 
@@ -348,7 +350,7 @@ HEADER
   opacity: 1;
 }
 
-.navList .icon-newspaper:before, .navList .icon-user:before {
+.navList .icon-newspaper:before, .navList .icon-user:before, .navList .icon-pencil:before {
   font-size: 16px;
   line-height: 21px;
   vertical-align: middle;
