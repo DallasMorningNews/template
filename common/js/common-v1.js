@@ -1,7 +1,28 @@
 
 var _sf_startpt=(new Date()).getTime();
 var OAS_sitepage= storyURL.replace("http://res.dallasnews.com","www.dallasnews.com");
+/*
+function formatTweet(text){
+  var via = " | @dallasnews",
+    returnText = text+via,
+    linkCharOffset = 31,
+    arrayText = [];
 
+  if (returnText.length + linkCharOffset <= 140){
+    return returnText;
+  } else {
+    arrayText = text.split(" ");
+    while ((returnText.length + linkCharOffset) > 140){
+      arrayText.pop();
+      returnText = arrayText.join(" ")+via;
+    }
+    return returnText;
+  }
+}
+
+formatTweet(storyTitle);
+
+*/
 
 function shareInit(storyURL, storyTitle, leadText, storyIMG, shareID){
 	var gigya_catID = 'News',
@@ -32,8 +53,9 @@ function shareInit(storyURL, storyTitle, leadText, storyIMG, shareID){
 		onShareButtonClicked: function (eventObj) {
 		}
 	});
-
 }
+
+
 function commentInit(storyURL, storyTitle){
 	var conf_cmnts = { APIKey: "3_9lzrxJh-GQofXtoOq-ADFDpwOla0DXKJOvVl_KnlZPjeuRyBKYHjyaA2UYgGvXGv" };
 
