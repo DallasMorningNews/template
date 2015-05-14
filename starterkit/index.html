@@ -34,7 +34,6 @@
 
 	<link rel="shortcut icon" type="image/x-icon" href="http://www.dallasnews.com/favicon-premium.ico"/>
 	<link rel="stylesheet" type="text/css" href="css/theme.css" />
-	<link rel="stylesheet" type="text/css" href="/interactives/template/css/code.css" />
 	<link rel="stylesheet" type="text/css" href="/resrsc/premium/www/css/print.css" media="print"/>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700,700italic%7CMerriweather:400,400italic' rel='stylesheet' type='text/css'>
 	
@@ -48,12 +47,19 @@
 	    });
 
 	</script> 
-	<script src="/interactives/template/common/js/jquery-1.10.2.min.js"></script>
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+	<!-- Un-note the following line to use bowser.js (for browser type and version detection) -->
+	<!-- <script src="http://interactives.templates.statics.s3.amazonaws.com/v1.0/js/bowser.min.js"></script> -->
+
+	<!-- Un-note the following line to use jquery.swipe for for swipe events -->
+	<!-- <script src="http://interactives.templates.statics.s3.amazonaws.com/v1.0/js/jquery.swipe.min.js"></script> -->
+
+	<!-- Un-note the following line to use modernizr.touch for touch device detection -->
+	<!-- <script src="http://interactives.templates.statics.s3.amazonaws.com/v1.0/js/modernizr.touch.js"></script> -->	
 
  	<!-- Un-note the following line to use NDN video -->
-	<!--
-	<script type="text/javascript" async src="http://launch.newsinc.com/js/embed.js" id="_nw2e-js"></script>
-	-->
+	<!-- <script type="text/javascript" async src="http://launch.newsinc.com/js/embed.js" id="_nw2e-js"></script >-->
 
 	<!--[if lt IE 9]><script type="text/javascript" src="/interactives/template/common/respond.min.js"></script><![endif]-->
 	<script type="text/javascript" src="http://www.googletagservices.com/tag/js/gpt.js"></script>
@@ -83,108 +89,86 @@
 	googletag.enableServices();
 	</script>
 
-
 </head>
 <body>
 
 	<script type="text/javascript" src="http://res.dallasnews.com/resources/cobrand/js/blogs/parselyDynamicTracking.js"></script>
 	<script type="text/javascript" src="http://res.dallasnews.com/interactives/template/common/js/responsive-header.js"></script>
     
-	<article>
+	<article id="content">
+
 		<section id="contentHeader">
 			<img src="images/defaultImage.jpg" alt="FILL THIS IN">
 			<p class="cutline">Cutline goes here. You can remove this tag if you don't feel the lead image needs a cutline</p>
 		</section>
 		<!-- end contentHeader -->
 
-		<div id="wrapper">
-			<section class="bodyCopy">
+		<section class="contentWell clearFix">
 
-				<header id="storyHead">
-					<h3>Label, if needed</h3>
-					<h1>Main Headline</h1>
-					<h2>Deck head goes in this spot here</h2>
-				</header>
+			<header id="storyHead">
+				<h3>Label, if needed</h3>
+				<h1>Main Headline</h1>
+				<h2>Deck head goes in this spot here</h2>
+			</header>
 				<!-- end storyHead -->
 
-				<section class="bylineBlock">
-    	    		<p>By <a target="blank" href="mailto:emailaddresshere">Writer Name</a> | Staff Writer</p>
-    	    		<p>Published Month Date, Year</p>
-       			</section>
-        		<!-- end bylineBlock -->
+			<section class="bylineBlock">
+	    		<p>By <a target="blank" href="mailto:emailaddresshere">Writer Name</a> | Staff Writer</p>
+	    		<p>Published Month Date, Year</p>
+   			</section>
+    		<!-- end bylineBlock -->
 
-	      		<div class="shareComments shareCommentsTop">	
-					<ul id="share-bar1" class="width-auto-hack"></ul>
-				</div>        		
-				<!-- end shareComments -->
+      		<div class="shareComments shareCommentsTop">	
+				<ul id="share-bar1" class="width-auto-hack"></ul>
+			</div>        		
+			<!-- end shareComments -->
 
-				<p class="intro"><span class="dropcap">A</span>n opening paragraph goes here. orem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum tortor a eleifend sagittis. Quisque laoreet elit vitae turpis aliquet tincidunt. Nulla molestie vitae purus eget dignissim. Quisque blandit nibh lorem, non mollis velit rutrum ac. Pellentesque pharetra mattis luctus.</p>
+			<p class="intro"><span class="dropcap">A</span>n opening paragraph goes here. orem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum tortor a eleifend sagittis. Quisque laoreet elit vitae turpis aliquet tincidunt. Nulla molestie vitae purus eget dignissim. Quisque blandit nibh lorem, non mollis velit rutrum ac. Pellentesque pharetra mattis luctus.</p>
 
-				<!-- story goes here -->
+			<!-- story goes here -->
 
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum tortor a eleifend sagittis. Quisque laoreet elit vitae turpis aliquet tincidunt. Nulla molestie vitae purus eget dignissim. Quisque blandit nibh lorem, non mollis velit rutrum ac. Pellentesque pharetra mattis luctus. Sed congue iaculis leo vel convallis. Aenean velit sapien, ultricies sit amet ligula sit amet, dapibus egestas metus. Quisque vitae cursus mauris, quis sagittis felis. Pellentesque in enim ut leo suscipit bibendum.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum tortor a eleifend sagittis. Quisque laoreet elit vitae turpis aliquet tincidunt. Nulla molestie vitae purus eget dignissim. Quisque blandit nibh lorem, non mollis velit rutrum ac. Pellentesque pharetra mattis luctus. Sed congue iaculis leo vel convallis. Aenean velit sapien, ultricies sit amet ligula sit amet, dapibus egestas metus. Quisque vitae cursus mauris, quis sagittis felis. Pellentesque in enim ut leo suscipit bibendum.</p>
 
-				<h1>This is an h1 tag</h1>
-				<p>Fusce sed arcu magna. Quisque sit amet porttitor massa, eu suscipit sem. Quisque facilisis quis urna non elementum. Suspendisse quis nisl ut elit sagittis eleifend. Nullam sed tortor est. Nulla vitae volutpat risus, vel pretium nibh. Aenean lacinia tempor nisi, vitae laoreet turpis molestie ut. Vivamus ut nisl interdum, dictum sapien sed, condimentum neque. Curabitur eu eros urna. Curabitur et risus vestibulum, vulputate dui sed, pulvinar augue.</p>
-
-				<h3>This is an h3 tag</h3>
-				<p>Nullam massa magna, ullamcorper eget posuere eu, adipiscing vitae purus. Morbi ut magna pharetra, rhoncus elit id, mollis magna. Nulla quis mi arcu. Vivamus tincidunt ultricies tellus, a malesuada elit pretium ac. Praesent elementum cursus nibh quis porta. Suspendisse ante libero, rhoncus sed purus sed, tempus faucibus purus. Suspendisse aliquam massa id massa pulvinar fermentum. Phasellus facilisis et nulla a molestie. In enim mauris, gravida eu malesuada at, consequat in tellus. Aliquam erat volutpat. Etiam ac viverra magna, non facilisis lectus. Morbi purus ligula, sodales feugiat ipsum ut, viverra rutrum ipsum.</p>
-
-				<h3>This is an h3 tag</h3>
-				<p>Fusce blandit justo id lectus tincidunt, vitae lacinia enim pellentesque. Morbi volutpat purus non erat ornare adipiscing. Nunc ut tortor non enim congue mattis in nec justo. Nam eu velit non odio rutrum tincidunt ut a nulla. Vivamus accumsan, ante eget luctus mattis, risus lorem bibendum lectus, quis mollis mauris felis a arcu. Etiam euismod, nibh a posuere iaculis, dolor felis euismod nibh, at commodo urna ipsum ac neque. Morbi ut ipsum ut quam mattis sollicitudin bibendum in mauris. Phasellus pellentesque libero tellus, nec consectetur justo euismod at. Donec placerat ultrices felis consequat auctor. Praesent imperdiet scelerisque arcu in mollis. Pellentesque tempus nibh non lacinia sagittis.</p>
-
-				<p>Proin pharetra massa quis turpis scelerisque, ut pharetra enim semper. Integer congue lacus felis, sit amet accumsan neque suscipit feugiat. Aenean pretium mattis felis, a suscipit neque posuere ac. In nunc ipsum, porta in sapien sit amet, egestas tincidunt diam. Curabitur adipiscing lacus vitae elit luctus sodales. Nunc aliquet nulla vitae nibh rhoncus sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam viverra massa ut nulla blandit ullamcorper. Proin sollicitudin ut lacus sit amet interdum. Phasellus egestas porta luctus. Proin consequat sem id posuere suscipit. Nulla porta sem ac purus dictum, rutrum lobortis dui gravida.</p>
-
-				<h5>This is an h5 tag</h5>
-				<p>Proin pharetra massa quis turpis scelerisque, ut pharetra enim semper. Integer congue lacus felis, sit amet accumsan neque suscipit feugiat. Aenean pretium mattis felis, a suscipit neque posuere ac. In nunc ipsum, porta in sapien sit amet, egestas tincidunt diam. Curabitur adipiscing lacus vitae elit luctus sodales. Nunc aliquet nulla vitae nibh rhoncus sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam viverra massa ut nulla blandit ullamcorper. Proin sollicitudin ut lacus sit amet interdum. Phasellus egestas porta luctus. Proin consequat sem id posuere suscipit. Nulla porta sem ac purus dictum, rutrum lobortis dui gravida.</p>
-
-				<h6>This is an h6 tag</h6>
-				<p>Proin pharetra massa quis turpis scelerisque, ut pharetra enim semper. Integer congue lacus felis, sit amet accumsan neque suscipit feugiat. Aenean pretium mattis felis, a suscipit neque posuere ac. In nunc ipsum, porta in sapien sit amet, egestas tincidunt diam. Curabitur adipiscing lacus vitae elit luctus sodales. Nunc aliquet nulla vitae nibh rhoncus sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam viverra massa ut nulla blandit ullamcorper. Proin sollicitudin ut lacus sit amet interdum. Phasellus egestas porta luctus. Proin consequat sem id posuere suscipit. Nulla porta sem ac purus dictum, rutrum lobortis dui gravida.</p>
-
-				<section class="credits clearFix">
-					<p>Author: <a href="mailto:emailaddress">Name</a></p>
-					<p>Editor: <a href="mailto:emailaddress">Name</a></p>
-					<p>Copy Editor: <a href="mailto:emailaddress">Name</a></p>
-					<p>Photos: <a href="mailto:emailaddress">Name</a></p>
-					<p>Graphics: <a href="mailto:emailaddress">Name</a></p>
-					<p>Designer: <a href="mailto:emailaddress">Name</a></p>
-				</section>
-				<!-- end credits -->
-
-				<section class="more clearFix">
-					<h1>More from The Dallas Morning News</h1>
-					<a href="#">
-						<img src="images/defaultImage.jpg" alt="Fill this in">
-						<h5>Story title goes here</h5>
-						<p>Description of the story goes in this spot here</p>
-					</a>
-					<a href="#">
-						<img src="images/defaultImage.jpg" alt="Fill this in">
-						<h5>Story title goes here</h5>
-						<p>Description of the story goes in this spot here</p>
-					</a>
-					<a href="#">
-						<img src="images/defaultImage.jpg" alt="Fill this in">
-						<h5>Story title goes here</h5>
-						<p>Description of the story goes in this spot here</p>
-					</a>
-				</section>
-				<!-- end more -->
-
-	      		<div class="shareComments">   		
-					<ul id="share-bar2" class="width-auto-hack"></ul>
-                    <div id="comments"></div>
-				</div>
-				<!-- end shareComments -->
-
+			<section class="credits clearFix">
+				<p>Author: <a href="mailto:emailaddress">Name</a></p>
+				<p>Editor: <a href="mailto:emailaddress">Name</a></p>
+				<p>Copy Editor: <a href="mailto:emailaddress">Name</a></p>
+				<p>Photos: <a href="mailto:emailaddress">Name</a></p>
+				<p>Graphics: <a href="mailto:emailaddress">Name</a></p>
+				<p>Designer: <a href="mailto:emailaddress">Name</a></p>
 			</section>
-			<!-- end bodyCopy -->
+			<!-- end credits -->
 
-		</div>
-		<!-- end wrapper -->
+			<section class="more clearFix">
+				<h5>More from The Dallas Morning News</h5>
+				<a class="clearFix" href="#">
+					<img src="images/defaultImage.jpg" alt="Fill this in">
+					<h6>Story title goes here</h6>
+					<p>Description of the story goes in this spot here</p>
+				</a>
+				<a class="clearFix" href="#">
+					<img src="images/defaultImage.jpg" alt="Fill this in">
+					<h6>Story title goes here</h6>
+					<p>Description of the story goes in this spot here</p>
+				</a>
+				<a class="clearFix" href="#">
+					<img src="images/defaultImage.jpg" alt="Fill this in">
+					<h6>Story title goes here</h6>
+					<p>Description of the story goes in this spot here</p>
+				</a>
+			</section>
+			<!-- end more -->
+
+      		<div class="shareComments">   		
+				<ul id="share-bar2" class="width-auto-hack"></ul>
+                <div id="comments"></div>
+			</div>
+			<!-- end shareComments -->
+
+		</section>
+		<!-- end contentWell -->
 
 	</article>
-    <!-- end relatedFooter -->
 
 	<script type="text/javascript" src="http://res.dallasnews.com/interactives/template/common/js/responsive-footer.js"></script>
 	<script type="text/javascript" src="js/customJS.js"></script>
