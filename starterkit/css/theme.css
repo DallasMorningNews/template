@@ -620,7 +620,7 @@ XIV. SLIDESHOWS
   left: 0;
   position: absolute;
   top: 0;
-  transition: all .4s ease-out;
+  transition: all .3s ease-out;
   width: 100%;
 }
 
@@ -629,10 +629,20 @@ XIV. SLIDESHOWS
 }
 
 .slideButton {
+  background-color: white;
   cursor: pointer;
   display: block;
+  height: 5rem;
+  margin-top: -5rem;
+  opacity: .8;
   position: absolute;
-  top: 33%;
+  top: 50%;
+  transition: opacity .3s ease-out;
+  width: 5rem;
+}
+
+.slideButton:hover {
+  opacity: 1;
 }
 
 .nextButton {
